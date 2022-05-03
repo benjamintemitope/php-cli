@@ -2,9 +2,10 @@
 <?php
 
 if (file_exists(__DIR__ . '/vendor/autoload.php')) require __DIR__ .'/vendor/autoload.php';
+if (file_exists(__DIR__ . '/../vendor/autoload.php')) require __DIR__ .'/../vendor/autoload.php';
 
-use Console\ServeCommand;
-use Console\ThinkCommand;
+use Benjamintemitope\PhpCli\ServeCommand;
+use Benjamintemitope\PhpCli\ThinkCommand;
 use Symfony\Component\Console\Application;
 
 $app = new Application(' ____            
