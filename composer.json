@@ -1,7 +1,7 @@
 {
     "name": "benjamintemitope/php-cli",
     "description": "A simple command line tool for interacting with your PHP projects",
-    "homepage": "https://github.com/php-cli",
+    "homepage": "https://github.com/benjamintemitope/php-cli",
     "keywords": [
         "php",
         "console",
