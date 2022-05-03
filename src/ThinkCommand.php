@@ -1,6 +1,6 @@
 <?php
 
-namespace Console;
+namespace Benjamintemitope\PhpCli;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
