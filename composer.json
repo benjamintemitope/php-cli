@@ -16,18 +16,23 @@
             "role": "Developer"
         }
     ],
-    "require":
-    {
-        "symfony/console": "^5.4",
-        "symfony/process": "^5.4",
-        "psy/psysh": "^0.11.2"
+    "require": {
+        "ext-json": "*",
+        "psy/psysh": "^0.11.1",
+        "symfony/console": "^5.0",
+        "symfony/process": "^5.0"
     },
-    "autoload":
-    {
-        "psr-4":
-        {
+    "bin": [
+        "bin/bee"
+    ],
+    "autoload": {
+        "psr-4": {
             "Console\\": "src"
-        },
-        "classmap": ["src"]
-    }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
