@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Console\ServeCommand;
+use Console\ThinkCommand;
+use Symfony\Component\Console\Application;
+
+$app = new Application(' ____            
+ |  _ \           
+ | |_) | ___  ___ 
+ |  _ < / _ \/ _ \
+ | |_) |  __/  __/
+ |____/ \___|\___|', 'v1.0.0');
+$app -> add(new ServeCommand());
+$app -> add(new ThinkCommand());
+$app -> run();
