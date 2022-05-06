@@ -22,7 +22,7 @@ class ThinkCommand extends Command {
         $output->writeln('<info>🐝 Bee interactive shell activated</info>');
 
         if (file_exists('vendor/autoload.php')) require 'vendor/autoload.php';
-        if (file_exists('app/bootstrap.php')) require 'app/bootstrap.php';
+        if (file_exists('bee.php')) require 'bee.php';
 
         $shell = new Shell();
 

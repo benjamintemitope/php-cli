@@ -4,3 +4,6 @@ build
 composer.lock
 phpunit.xml
 vendor
+
+# autoload file for interactive shell
+bee.php
